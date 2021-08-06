@@ -1,7 +1,8 @@
 const CartItem = ({ data, delFromCart }) => {
 
     let {id,name,price,quantity} = data;
-
+    
+    console.log("Hola")
 
     return (
         <div style={{ borderBottom: 'thin solid gray'}}>
