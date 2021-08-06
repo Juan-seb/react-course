@@ -1,0 +1,14 @@
+// Estas son variables que declaramos
+
+$color-sass : #bf4880;
+$color-sass80 : #bf488080;
+
+.bg-sass{
+    background-color: $color-sass;
+    transition: background-color .5s ease-in-out;
+
+    &:hover{ //Este & se hace referencia a esta misma clase
+        background-color: $color-sass80;
+    }
+
+}
